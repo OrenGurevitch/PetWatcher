@@ -55,6 +55,7 @@ secrets.json
 credentials.json
 config.json
 config.local.json
+training.log
 # Keep example configs
 !config.example.json
 
