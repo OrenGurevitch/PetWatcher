@@ -15,8 +15,9 @@ Commercial pet cameras cost **$50-300** and require subscriptions ($5-20/month).
 - **Free forever** - No subscriptions, runs on your hardware
 - **Privacy first** - Everything stays on your device
 
-# take imgage from media/ and add it to the README
+## Ozzy Example
 ![Ozzy Camera Screenshot](media/ozzy_camera_screenshot.png)
+
 ## Quick Start
 
 ```bash
