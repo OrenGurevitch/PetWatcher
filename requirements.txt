@@ -1,0 +1,21 @@
+# Pet Camera Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core ML and Computer Vision
+ultralytics>=8.3.0
+torch>=2.0.0
+torchvision>=0.15.0
+opencv-python>=4.10.0
+numpy>=1.24.0
+pillow>=10.0.0
+
+# Optional: Training Visualization
+# Uncomment if you want to track training metrics
+# comet-ml>=3.40.0
+
+# Optional: Notifications
+# Install separately if you want Telegram/Discord notifications
+# pip install aiohttp>=3.9.0
+
+# Utilities
+python-dotenv>=1.0.0

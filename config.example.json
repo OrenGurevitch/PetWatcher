@@ -1,0 +1,37 @@
+{
+  "camera": {
+    "index": 0,
+    "confidence": 0.5,
+    "skip_frames": 0
+  },
+  "notifications": {
+    "enabled": false,
+    "cooldown_seconds": 300,
+    "persistence_frames": 5,
+    "save_images": true,
+    "image_dir": "snapshots",
+    "max_images": 100,
+    "notify_subjects": ["miso", "ozzy", "person"],
+    "platforms": {
+      "telegram": {
+        "enabled": false,
+        "bot_token": "YOUR_BOT_TOKEN_HERE",
+        "chat_id": "YOUR_CHAT_ID_HERE"
+      },
+      "discord": {
+        "enabled": false,
+        "webhook_url": "YOUR_DISCORD_WEBHOOK_URL_HERE"
+      },
+      "webhook": {
+        "enabled": false,
+        "url": "YOUR_WEBHOOK_URL_HERE",
+        "headers": {
+          "Authorization": "Bearer YOUR_TOKEN_HERE"
+        }
+      },
+      "console": {
+        "enabled": true
+      }
+    }
+  }
+}

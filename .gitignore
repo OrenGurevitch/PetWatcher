@@ -1,0 +1,91 @@
+# General
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp
+tmp/
+.cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+env/
+ENV/
+venv/
+.venv/
+venv.bak/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+.eggs/
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Tests / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Type checkers
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Secrets and configuration (keep examples in repo)
+.env
+*.env
+secrets.json
+credentials.json
+config.json
+config.local.json
+# Keep example configs
+!config.example.json
+
+# macOS
+.DS_Store
+
+# Machine learning artifacts (large files, weights, runs, datasets)
+*.pt
+*.pth
+*.ckpt
+yolo11n.pt
+models/*.pt
+snapshots/
+runs/
+outputs/
+checkpoints/
+weights/
+models/
+
+ACTIVITY_RECOGNITION_PLAN.md
+
+# Datasets and generated data
+data/
+cat_dataset/
+cat_dataset/images/
+cat_dataset/labels/
+
+# Misc
+*.pem
+*.key
+*.sqlite
+
+# If you need to keep any large model or dataset file in the repo, add an explicit
+# exception (e.g. `!models/keep-me.pt`) or use Git LFS.
