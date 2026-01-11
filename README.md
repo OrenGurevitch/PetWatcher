@@ -15,10 +15,16 @@ Commercial pet cameras cost **$50-300** and require subscriptions ($5-20/month).
 - **Free forever** - No subscriptions, runs on your hardware
 - **Privacy first** - Everything stays on your device
 
+# take imgage from media/ and add it to the README
+![Ozzy Camera Screenshot](media/ozzy_camera_screenshot.png)
 ## Quick Start
 
 ```bash
 # Install dependencies
+
+# activate venv 
+python3 -m venv venv # if you don't have a virtual environment yet
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
 
 # Run the camera
@@ -26,10 +32,6 @@ python3 camera.py
 ```
 
 Press `Q` to quit.
-
-## Training On Your Pets
-
-This system works with **any pets** - cats, dogs, rabbits, birds, etc.
 
 ### 1. Collect Images
 

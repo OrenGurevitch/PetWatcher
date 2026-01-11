@@ -11,7 +11,7 @@ pillow>=10.0.0
 
 # Optional: Training Visualization
 # Uncomment if you want to track training metrics
-# comet-ml>=3.40.0
+comet-ml>=3.40.0
 
 # Optional: Notifications
 # Install separately if you want Telegram/Discord notifications
